@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="keyboard">
+            <textarea name="" id="text-area" placeholder="..." class="letter"></textarea>
+            <input type="button" class="case" id="q" value="Q">
+            <input type="button" class="case" id="w" value="W">
+            <input type="button" class="case" id="e" value="E">
+            <input type="button" class="case" id="r" value="R">
+            <input type="button" class="case" id="t" value="T">
+            <input type="button" class="case" id="y" value="Y">
+            <input type="button" class="case" id="u" value="U">
+            <input type="button" class="case" id="i" value="I">
+            <input type="button" class="case" id="o" value="O">
+            <input type="button" class="case" id="p" value="P">
+            <input type="button" class="case" id="a" value="A">
+            <input type="button" class="case" id="s" value="S">
+            <input type="button" class="case" id="d" value="D">
+            <input type="button" class="case" id="f" value="F">
+            <input type="button" class="case" id="g" value="G">
+            <input type="button" class="case" id="h" value="H">
+            <input type="button" class="case" id="j" value="J">
+            <input type="button" class="case" id="k" value="K">
+            <input type="button" class="case" id="l" value="L">
+            <button onclick="Display(',')">,</button>
+            <button id="left-shift">Shift</button>
+            <input type="button" class="case" id="z" value="Z">
+            <input type="button" class="case" id="x" value="X">
+            <input type="button" class="case" id="c" value="C">
+            <input type="button" class="case" id="v" value="V">
+            <input type="button" class="case" id="b" value="B">
+            <input type="button" class="case" id="n" value="N">
+            <input type="button" class="case" id="m" value="M">
+            <button onclick="Display('.')">.</button>
+            <button id="right-shift">Shift</button>
+            <button onclick="Backspace()" id="backspace">Backspace</button>
+            <button onclick="Display(' ')" id="space">SPACE</button>
+            <button onclick="Enter()" id="enter">Enter</button>
+            <button onclick="Clear()" id="reset">RESET</button>
+        </div>
+    </div>
+
+    <div>
+        <ul id="list"></ul>
+    </div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
