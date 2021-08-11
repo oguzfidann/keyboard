@@ -1,2 +1,2 @@
 # keyboard
-keuboard
+keyboard
